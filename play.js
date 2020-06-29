@@ -28,5 +28,16 @@ console.log(say2('Hi', ", Nigga"));
 // object
 const car = {
     Type: "Ford",
-    Make: "Taurus"
+    Make: "Taurus",
+    greet() {
+        console.log("Hi, I have a " + this.Type + " " + this.Make)
+    }
+}
+
+//Arrays
+const hobbies = ['Sports', 'Programming', 'Video Games'];
+
+//For each
+for (let hobby of hobbies) {
+    console.log(hobby);
 }
