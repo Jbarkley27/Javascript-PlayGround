@@ -26,7 +26,7 @@ const say2 = (message, message2) => {
 console.log(say2('Hi', ", Nigga"));
 
 // object
-let car = {
+const car = {
     Type: "Ford",
     Make: "Taurus"
 }
