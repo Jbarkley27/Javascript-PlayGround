@@ -41,3 +41,11 @@ const hobbies = ['Sports', 'Programming', 'Video Games'];
 for (let hobby of hobbies) {
     console.log(hobby);
 }
+
+//copy array
+
+const func = (...args) => {
+    return args;
+}
+
+console.log(func("here", "here2"))
